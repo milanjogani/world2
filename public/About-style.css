@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+    /* background-position: center; */
+    /* background-size: cover; */
+    height: 100%;
+}
+
+
+
+/* aboutposter */
+.aboutouter{
+    background: linear-gradient(rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(./img/aboutposter.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.aboutouter .aboutpostertext{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+.aboutouter .aboutpostertext h2{
+    font-size: 64px;
+}
+
+
+
+.travelinner{
+    position: relative;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-20%);
+    background-color: white;
+    padding: 50px 30px;
+  border-radius: 32px;
+   
+}
+
+
+
+
+.travelouter .lefttext{
+    padding: 0 15px;
+}
+.travelouter .lefttext p{
+    color: #516381;
+    font-size: 17px;
+    margin-bottom: 35px;
+}
+.travelouter .lefttext h2{
+    font-size: 41px;
+    font-weight: 800;
+}
+.travelouter .righttext .familyimage{
+    width: 670px;
+    height: 400px;
+}
+.travelouter .righttext .familyimage img{
+    border-radius: 14px;
+}
+
+
+
+
+
+
+/* aboutalbum */
+.albumouter{
+    background-color: #60637230;
+    padding: 140px 0;
+}
+.albumouter .albuminner .albumText{
+    text-align: center;
+    width: 700px;
+    margin: 0 auto;
+}
+.albumouter .albuminner .albumText h2{
+    font-size: 40px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+
+.albumImageinner{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    margin-top: 5%;
+}
+.albumImageinner  #item-3 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    height: 310px;
+    
+}
+.albumImageinner  #item-6 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.albumImageinner  #item-2 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    
+}
+
+
+
+
+/* about-team */
+
+.oceanteam{
+    background: linear-gradient(rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%),url(img/block2.jpeg);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 559px;
+    color: white;
+    position: relative;
+}
+.oceanteam .oceantraminner .oceanTeamText{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.oceanteam .oceantraminner .oceanTeamText span{
+    font-size: 11px;
+  line-height: 1.4em;
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.oceanteam .oceantraminner .oceanTeamText h2{
+    margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 48px;
+  line-height: 1.25em;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+}
+.oceanteam .oceantraminner .oceanTeamText p {
+    letter-spacing: 1px;
+    color: antiquewhite;
+}
+
+
+
+
+.temOuter{
+    background-color: white;
+    padding: 0 15px ;
+    border-radius: 10px;
+    position: absolute;
+    top: 90%;
+}
+.teamImgInner {
+    height: 407px;
+}
+.teamImage .teamImgInner p {
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.teamImage .teamImgInner span {
+    color: rgba(0, 0, 0, 0.587);
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+}
+ .teamImgInner img{
+    border-radius: 15px;
+}

@@ -1,0 +1,59 @@
+.journalouter{
+    background: linear-gradient(rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(./img/block5.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.journalouter .journalpostertext{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+.journalouter .journalpostertext h2{
+    font-size: 48px;
+}
+
+
+
+.riverouter .riverimage img {
+    transition: 0.1s;
+}
+.riverouter .riverimage img:hover {
+    filter: brightness(0.6);
+}
+
+
+
+
+
+
+/* journal-photo */
+.journalPhotoOuter {
+    background-color: #f7f8fc;
+    padding: 100px 0;
+}
+.journalPhotoInner .card{
+    padding: 0 20px;
+    border: none;
+    margin: 15px 0;
+    
+}
+.journalPhotoInner .card p{
+    color: rgba(0, 0, 0, 0.556);
+    margin-top: 15px;
+    line-height: 1.4;
+}
+.journalPhotoInner .card button {
+   transition: 0.2s;
+    border-radius: 10px;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
+.journalPhotoInner .card button:hover {
+    background-color: black;
+    color: white;
+}
