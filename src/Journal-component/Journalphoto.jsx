@@ -16,9 +16,9 @@ const Journalphoto = () => {
                             <Card.Body>
                                 <Card.Title>7 of the Best Examples of Beautiful Blog Design</Card.Title>
                                 <Card.Text>
-                                Donec sed auctor orci. In a nisl vel nisi egestas efficitur nec ac neque. Sed vitae sollicitudin elit, ac tristique.
+                                    Donec sed auctor orci. In a nisl vel nisi egestas efficitur nec ac neque. Sed vitae sollicitudin elit, ac tristique.
                                 </Card.Text>
-                                <Button variant="">READ MORE</Button>
+                                <button>READ MORE</button>
                             </Card.Body>
                         </Card>
                         <Card className='col-12 col-sm-12 col-md-6 col-lg-4 card'>
@@ -26,9 +26,9 @@ const Journalphoto = () => {
                             <Card.Body>
                                 <Card.Title>7 of the Best Examples of Beautiful Blog Design</Card.Title>
                                 <Card.Text>
-                                Donec sed auctor orci. In a nisl vel nisi egestas efficitur nec ac neque. Sed vitae sollicitudin elit, ac tristique.
+                                    Donec sed auctor orci. In a nisl vel nisi egestas efficitur nec ac neque. Sed vitae sollicitudin elit, ac tristique.
                                 </Card.Text>
-                                <Button variant="">READ MORE</Button>
+                                <button>READ MORE</button>
                             </Card.Body>
                         </Card>
                         <Card className='col-12 col-sm-12 col-md-6 col-lg-4 card'>
@@ -36,9 +36,9 @@ const Journalphoto = () => {
                             <Card.Body>
                                 <Card.Title>7 of the Best Examples of Beautiful Blog Design</Card.Title>
                                 <Card.Text>
-                                Donec sed auctor orci. In a nisl vel nisi egestas efficitur nec ac neque. Sed vitae sollicitudin elit, ac tristique.
+                                    Donec sed auctor orci. In a nisl vel nisi egestas efficitur nec ac neque. Sed vitae sollicitudin elit, ac tristique.
                                 </Card.Text>
-                                <Button variant="">READ MORE</Button>
+                                <button>READ MORE</button>
                             </Card.Body>
                         </Card>
                         <Card className='col-12 col-sm-12 col-md-6 col-lg-4 card'>
@@ -46,9 +46,9 @@ const Journalphoto = () => {
                             <Card.Body>
                                 <Card.Title>7 of the Best Examples of Beautiful Blog Design</Card.Title>
                                 <Card.Text>
-                                Donec sed auctor orci. In a nisl vel nisi egestas efficitur nec ac neque. Sed vitae sollicitudin elit, ac tristique.
+                                    Donec sed auctor orci. In a nisl vel nisi egestas efficitur nec ac neque. Sed vitae sollicitudin elit, ac tristique.
                                 </Card.Text>
-                                <Button variant="">READ MORE</Button>
+                               <button>READ MORE</button>
                             </Card.Body>
                         </Card>
                         <Card className='col-12 col-sm-12 col-md-6 col-lg-4 card'>
@@ -56,9 +56,9 @@ const Journalphoto = () => {
                             <Card.Body>
                                 <Card.Title>7 of the Best Examples of Beautiful Blog Design</Card.Title>
                                 <Card.Text>
-                                Donec sed auctor orci. In a nisl vel nisi egestas efficitur nec ac neque. Sed vitae sollicitudin elit, ac tristique.
+                                    Donec sed auctor orci. In a nisl vel nisi egestas efficitur nec ac neque. Sed vitae sollicitudin elit, ac tristique.
                                 </Card.Text>
-                                <Button variant="">READ MORE</Button>
+                               <button>READ MORE</button>
                             </Card.Body>
                         </Card>
                         <Card className='col-12 col-sm-12 col-md-6 col-lg-4 card'>
@@ -66,9 +66,9 @@ const Journalphoto = () => {
                             <Card.Body>
                                 <Card.Title>7 of the Best Examples of Beautiful Blog Design</Card.Title>
                                 <Card.Text>
-                                Donec sed auctor orci. In a nisl vel nisi egestas efficitur nec ac neque. Sed vitae sollicitudin elit, ac tristique.
+                                    Donec sed auctor orci. In a nisl vel nisi egestas efficitur nec ac neque. Sed vitae sollicitudin elit, ac tristique.
                                 </Card.Text>
-                                <Button variant="">READ MORE</Button>
+                               <button>READ MORE</button>
                             </Card.Body>
                         </Card>
                     </div>

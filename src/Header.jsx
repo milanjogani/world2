@@ -28,24 +28,24 @@ const Header = () => {
                             navbarScroll
                         >
                             <Nav.Link  className='text-light'>
-                                <Link to='/' className='text-decoration-none text-white'>home</Link>
+                                <Link to='/' className='text-decoration-none text-black'>home</Link>
                             </Nav.Link>
                             <Nav.Link  className='text-light'>
-                                <Link to='/about' className='text-decoration-none text-white'>about</Link>
+                                <Link to='/about' className='text-decoration-none text-black'>about</Link>
                             </Nav.Link>
                             <Nav.Link  className='text-light'>
-                                <Link to='/journal' className='text-decoration-none text-white'>journal</Link>
+                                <Link to='/journal' className='text-decoration-none text-black'>journal</Link>
                             </Nav.Link>
                             <Nav.Link  className='text-light'>
-                                <Link to='/support' className='text-decoration-none text-white'>support</Link>
+                                <Link to='/support' className='text-decoration-none text-black'>support</Link>
                             </Nav.Link>
                            
 
                         </Nav>
-                        <Form>
+                        {/* <Form> */}
 
-                            <Button variant="outline-success">DESTINATION</Button>
-                        </Form>
+                           <button>DESTINATION</button>
+                        {/* </Form> */}
                     </Navbar.Collapse>
                 </Container>
             </Navbar>

@@ -4,6 +4,7 @@
     background-size: cover;
     height: 100vh;
     position: relative;
+    
 }
 .journalouter .journalpostertext{
     position: absolute;
@@ -16,14 +17,14 @@
 .journalouter .journalpostertext h2{
     font-size: 48px;
 }
-
-
-
-.riverouter .riverimage img {
-    transition: 0.1s;
+.riverouter {
+    padding: 70px 0 0 0;
 }
-.riverouter .riverimage img:hover {
-    filter: brightness(0.6);
+.riverouter .riverimage {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 300px 300px;
+    gap: 10px;
 }
 
 
@@ -52,8 +53,17 @@
     border-radius: 10px;
     border-bottom: 2px solid black;
     border-right: 2px solid black;
+    color: black;
+    border-top: none ;
+    border-left: none ;
 }
 .journalPhotoInner .card button:hover {
     background-color: black;
     color: white;
+}
+.bg-body-tertiary-1 .container-fluid button {
+    color: white !important;
+    background-color: rgba(0, 0, 0, 0.735) !important;
+    border: none;
+    border-radius: 4px;
 }

@@ -28,7 +28,7 @@ const Across = () => {
                         <h1 className='mb-5 mt-5'>Across the world</h1>
 
                         <div className="across-slider">
-                            <OwlCarousel className='owl-theme' loop dots={false} autoplay autoplayTimeout={2000} margin={20} nav {...str}>
+                            <OwlCarousel className='owl-theme' loop dots={false} autoplay autoplaySpeed={2000} autoplayTimeout={2000} margin={20} nav {...str}>
                                 <div class='item'>
                                    <img src="./img/block1.jpeg" alt="" />
 
